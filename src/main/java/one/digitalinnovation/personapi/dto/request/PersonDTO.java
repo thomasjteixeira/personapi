@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.dto.response.request;
+package one.digitalinnovation.personapi.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -29,7 +29,7 @@ public class PersonDTO {
     private String lastName;
 
     @NotEmpty
-    //@CPF
+//    @CPF
     private String cpf;
 
     @NotNull
