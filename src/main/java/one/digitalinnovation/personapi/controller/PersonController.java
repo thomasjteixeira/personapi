@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/people")
@@ -26,10 +27,10 @@ public class PersonController {
         this.personService = personService;
     }
 
-    @GetMapping
-    public String getPeople() {
-        return "API Test!";
-    }
+//    @GetMapping
+//    public String getPeople() {
+//        return "API Test!";
+//    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
@@ -37,5 +38,9 @@ public class PersonController {
         return personService.createPerson(personDTO);
     }
 
+    @GetMapping
+    public List<PersonDTO> listAll(){
+        return personService.listAll();
+    }
 
 }
