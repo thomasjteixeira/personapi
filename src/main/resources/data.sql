@@ -1,0 +1,2 @@
+INSERT INTO PERSON(first_name, last_name, cpf, email, password) VALUES('Thomas', 'Jefferson', '123456', 'admin@admin', '$2a$10$te1ic662J0EZSnJSZcrpSuvwSVIIkW3eWX4.7ZZZ9eX79yHCXU8cC');
+-- password=admin
