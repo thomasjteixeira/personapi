@@ -1,6 +1,8 @@
 <h2>Sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
+
 ***
-<h6>Projeto do Bootcamp Amdocs JAVA Developer em parceria com a Digital Innovation</h6>
+
+<h5>Projeto do Bootcamp Amdocs JAVA Developer em parceria com a Digital Innovation</h6>
 
 ## Solução proposta
 
