@@ -2,7 +2,7 @@
 
 ***
 
-<h5>Projeto do Bootcamp Amdocs JAVA Developer em parceria com a Digital Innovation</h6>
+<h5>Projeto do Bootcamp da Digital Innovation</h6>
 
 ## Solução proposta
 
